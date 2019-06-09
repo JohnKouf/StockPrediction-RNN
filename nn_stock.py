@@ -10,8 +10,6 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 
-#  ~  73cHy9_1XF5Qkui5k_Hp my quandl key ~
-
 df = quandl.get('WIKI/AAPL')
 print("connected")
 
